@@ -48,15 +48,18 @@ main {
 	grid-column: 1 / 10;
 	background-color: #f5f5dd;
 	display: flex;
-	justify-content: space-around;
-	align-content: space-around;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
+	align-items: stretch;
+	gap: 20px;
+	padding: 10px;
 }
 
 main section {
 	border: 1px solid #333;
-	width: 31%;
-	height: 40%
+	min-width: 230px;
+	min-height: 60px;
+	flex-grow: 1;
+    flex-shrink: 0;
 }
 
 aside {
