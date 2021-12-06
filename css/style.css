@@ -1,11 +1,7 @@
-/************** Dont change anything in the body ******************/
 body {
 	background: url(../img/12_col.gif) center top repeat-y;
 	background-size: 90%;
 }
-/***********************************************************/
-
-/* Begin coding your solution below */
 
 #container {
 	display: grid;
@@ -20,6 +16,15 @@ body {
 header {
 	border: 1px solid #333;
 	grid-column: 1 / 13;
+	background-color: #f5f5dd;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 0 20px;
+}
+
+header button:last-child {
+	margin-left: auto;
 }
 
 section[id*="box"] {
