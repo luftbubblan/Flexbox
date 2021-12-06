@@ -46,6 +46,17 @@ section[id*="box"] {
 main {
 	border: 1px solid #333;
 	grid-column: 1 / 10;
+	background-color: #f5f5dd;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+main section {
+	border: 1px solid #333;
+	width: 31%;
+	height: 40%
 }
 
 aside {
