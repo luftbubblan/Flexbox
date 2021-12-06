@@ -62,6 +62,11 @@ main section {
 aside {
 	border: 1px solid #333;
 	grid-column: 10 / 13;
+	background-color: #f5f5dd;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px;
 }
 
 footer {
