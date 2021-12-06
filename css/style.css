@@ -49,8 +49,6 @@ main {
 	background-color: #f5f5dd;
 	display: flex;
 	flex-flow: row wrap;
-	/* justify-content: space-around; */
-	/* align-content: space-around; */
 	align-items: stretch;
 	gap: 20px;
 	padding: 10px;
